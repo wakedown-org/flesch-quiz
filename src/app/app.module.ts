@@ -13,6 +13,7 @@ import { QuestionComponent } from './question/question.component';
 import { ResultComponent } from './result/result.component';
 import { QuestionsService } from './questions.service';
 import { AnswersService } from './answers.service';
+import { ExporterService } from './exporter.service';
 
 const dbConfig: DBConfig  = {
   name: 'MyDb',
@@ -73,7 +74,8 @@ const dbConfig: DBConfig  = {
   ],
   providers: [
     QuestionsService,
-    AnswersService
+    AnswersService,
+    ExporterService
   ],
   bootstrap: [AppComponent]
 })

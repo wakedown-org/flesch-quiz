@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { QuestionsService } from './questions.service';
 import { AnswersService } from './answers.service';
+import { ExporterService } from './exporter.service';
 import { User } from './_models/user';
 import { Answer } from './_models/answer';
 
@@ -28,7 +29,7 @@ export class AppComponent {
     this.answers[this.lastQuestion] = val;
   }
 
-  constructor(private questionsSvc: QuestionsService, private answersSvc: AnswersService) {
+  constructor(private questionsSvc: QuestionsService, private answersSvc: AnswersService, private exporter: ExporterService) {
     this.questionsSvc.get().subscribe((questions: any[]) => {
       this.questions = questions;
       setInterval(() => {
@@ -124,6 +125,26 @@ export class AppComponent {
     this.answers = [];
     this.loadNextUser();
     this.loadCount();
+    return false;
+  }
+
+  export() {
+    this.answersSvc.getAllUsers().then(users => {
+      this.answersSvc.getAllAnswers().then(answers => {
+        const data = {
+          Sheets: { 'users': this.exporter.parseData(users) },
+          SheetNames: [ 'users' ]
+        };
+        users.map((u) => {
+          var list = answers.filter(v => v.userId === u.id);
+          return { sheet: `user-${u.id}`, data: list };
+        }).map(v => {
+          data.Sheets[v.sheet] = this.exporter.parseData(v.data);
+          data.SheetNames.push(v.sheet);
+        });
+        this.exporter.exportAsExcelFile(data, 'report');
+      });
+    });
     return false;
   }
 }

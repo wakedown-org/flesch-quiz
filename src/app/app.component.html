@@ -4,7 +4,7 @@
   <div class="spacer"></div>
   <mat-menu #appMenu="matMenu">
     <button mat-menu-item (click)="clearData()">Limpar Dados</button>
-    <button mat-menu-item>Exportar</button>
+    <button mat-menu-item (click)="export()">Exportar</button>
   </mat-menu>
   <button mat-icon-button [matBadge]="usersCount" matBadgePosition="below before" matBadgeColor="accent" color="primary" id="user-list" [matMenuTriggerFor]="appMenu" aria-label="Lista das respostas">
     <mat-icon>account_box</mat-icon>

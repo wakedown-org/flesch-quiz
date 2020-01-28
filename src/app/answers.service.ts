@@ -54,6 +54,22 @@ export class AnswersService {
     });
   }
 
+  getAllUsers(): Promise<User[]> {
+    return new Promise((resolve, reject) => {
+      this.db.getAll<User>('user').then(users => {
+        resolve(users);
+      });
+    });
+  }
+
+  getAllAnswers(): Promise<Answer[]> {
+    return new Promise((resolve, reject) => {
+      this.db.getAll<Answer>('answer').then(answers => {
+        resolve(answers);
+      });
+    });
+  }
+
   updateUser(user: User) {
     this.db.update<User>('user', user).then(
       () => {
