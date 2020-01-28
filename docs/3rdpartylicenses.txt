@@ -98,6 +98,9 @@ THE SOFTWARE.
 @angular/platform-browser
 MIT
 
+@angular/service-worker
+MIT
+
 chart.js
 MIT
 The MIT License (MIT)

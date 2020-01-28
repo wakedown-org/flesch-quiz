@@ -1,0 +1,82 @@
+{
+  "configVersion": 1,
+  "timestamp": 1580253738762,
+  "index": "/flesch-quiz/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/flesch-quiz/favicon.ico",
+        "/flesch-quiz/index.html",
+        "/flesch-quiz/main-es2015.js",
+        "/flesch-quiz/main-es5.js",
+        "/flesch-quiz/manifest.webmanifest",
+        "/flesch-quiz/polyfills-es2015.js",
+        "/flesch-quiz/polyfills-es5.js",
+        "/flesch-quiz/runtime-es2015.js",
+        "/flesch-quiz/runtime-es5.js",
+        "/flesch-quiz/styles.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/flesch-quiz/assets/icons/icon-128x128.png",
+        "/flesch-quiz/assets/icons/icon-144x144.png",
+        "/flesch-quiz/assets/icons/icon-152x152.png",
+        "/flesch-quiz/assets/icons/icon-192x192.png",
+        "/flesch-quiz/assets/icons/icon-384x384.png",
+        "/flesch-quiz/assets/icons/icon-512x512.png",
+        "/flesch-quiz/assets/icons/icon-72x72.png",
+        "/flesch-quiz/assets/icons/icon-96x96.png",
+        "/flesch-quiz/assets/questions.json"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/flesch-quiz/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/flesch-quiz/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/flesch-quiz/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/flesch-quiz/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/flesch-quiz/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/flesch-quiz/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/flesch-quiz/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/flesch-quiz/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/flesch-quiz/assets/questions.json": "2c953244996129baf63cf56dd82af13e4944b160",
+    "/flesch-quiz/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/flesch-quiz/index.html": "8fe87e0f907a497fbbff0013a065ff2ef91a4864",
+    "/flesch-quiz/main-es2015.js": "49ab49d455b82814e272c4efc61f5381ffea587f",
+    "/flesch-quiz/main-es5.js": "ca51a4d31d04c025fca16a1e674595a94f4bf231",
+    "/flesch-quiz/manifest.webmanifest": "56176fc3b053cb856a7ec8fafb38650bf58b55ab",
+    "/flesch-quiz/polyfills-es2015.js": "0ad639934b41612425791f874dac75b38de86049",
+    "/flesch-quiz/polyfills-es5.js": "f35b60306a767c3f163a2f42a82c53a238612a6c",
+    "/flesch-quiz/runtime-es2015.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/flesch-quiz/runtime-es5.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/flesch-quiz/styles.css": "1767fb8e20a7f8d4475c064415c3da4e47a8704f"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}

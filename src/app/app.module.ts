@@ -14,6 +14,8 @@ import { ResultComponent } from './result/result.component';
 import { QuestionsService } from './questions.service';
 import { AnswersService } from './answers.service';
 import { ExporterService } from './exporter.service';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 const dbConfig: DBConfig  = {
   name: 'MyDb',
@@ -70,7 +72,8 @@ const dbConfig: DBConfig  = {
     MatBadgeModule,
     HttpClientModule,
     ChartsModule,
-    NgxIndexedDBModule.forRoot(dbConfig)
+    NgxIndexedDBModule.forRoot(dbConfig),
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [
     QuestionsService,
