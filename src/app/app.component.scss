@@ -38,12 +38,12 @@
     margin: 0 16px;
   }
 
-  .toolbar #twitter-logo {
+  .toolbar #user-list {
     height: 40px;
     margin: 0 16px;
   }
 
-  .toolbar #twitter-logo:hover {
+  .toolbar #user-list:hover {
     opacity: 0.8;
   }
 
@@ -56,16 +56,21 @@
     align-items: center;
   }
 
-  svg.material-icons {
+  .logo {
+    font-size: x-large;
+    margin-left: 32px;
+  }
+
+  .material-icons {
     height: 24px;
     width: auto;
   }
 
-  svg.material-icons:not(:last-child) {
+  .material-icons:not(:last-child) {
     margin-right: 8px;
   }
 
-  .card svg.material-icons path {
+  .card .material-icons path {
     fill: #888;
   }
 

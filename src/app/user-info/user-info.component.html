@@ -1,13 +1,13 @@
 <div class="example-container">
     <mat-form-field>
-        <input matInput placeholder="Nome" [(ngModel)]="username">
+        <input matInput placeholder="Nome" [(ngModel)]="user.name" (keyup)="keyup()">
     </mat-form-field>
 
     <mat-form-field>
-        <input matInput placeholder="Email" [(ngModel)]="useremail">
+        <input matInput placeholder="Email" [(ngModel)]="user.email" (keyup)="keyup()">
     </mat-form-field>
 
     <mat-form-field>
-        <input matInput placeholder="Telefone" [(ngModel)]="usertel">
+        <input matInput placeholder="Telefone" [(ngModel)]="user.telefone" (keyup)="keyup()">
     </mat-form-field>
 </div>
