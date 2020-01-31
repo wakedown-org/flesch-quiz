@@ -19,9 +19,9 @@
                     "exatas": 2,
                     "biologicas": 5,
                     "saude": 3,
-                    "comunicacao": 10,
+                    "comunicacao": 9,
                     "artes": 6,
-                    "humanas": 8
+                    "humanas": 7
                 }
             },
             {
@@ -32,7 +32,7 @@
                     "saude": 4,
                     "comunicacao": 3,
                     "artes": 1,
-                    "humanas": 5
+                    "humanas": 4
                 }
             }
         ]
