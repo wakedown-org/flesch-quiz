@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1580434817018,
+  "timestamp": 1580437169456,
   "index": "/flesch-quiz/index.html",
   "assetGroups": [
     {
@@ -15,6 +15,7 @@
         "/flesch-quiz/manifest.webmanifest",
         "/flesch-quiz/polyfills-es2015.js",
         "/flesch-quiz/polyfills-es5.js",
+        "/flesch-quiz/polyfills-nomodule-es5.js",
         "/flesch-quiz/runtime-es2015.js",
         "/flesch-quiz/runtime-es5.js",
         "/flesch-quiz/styles.css"
@@ -49,14 +50,15 @@
     "/flesch-quiz/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "/flesch-quiz/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/flesch-quiz/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/flesch-quiz/assets/questions.json": "2c953244996129baf63cf56dd82af13e4944b160",
+    "/flesch-quiz/assets/questions.json": "dbdc3bf3401321588d5325f2c66c1e3671c1c284",
     "/flesch-quiz/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/flesch-quiz/index.html": "8fe87e0f907a497fbbff0013a065ff2ef91a4864",
-    "/flesch-quiz/main-es2015.js": "8bfb95d312538167ad6cd66d6bd7388b09af89be",
-    "/flesch-quiz/main-es5.js": "9b1c1977267c44a944fcbf9173d150779172d0c6",
-    "/flesch-quiz/manifest.webmanifest": "56176fc3b053cb856a7ec8fafb38650bf58b55ab",
+    "/flesch-quiz/index.html": "b0fde9327a19c4250dceaa303623a5dd27ddb486",
+    "/flesch-quiz/main-es2015.js": "e15532de5cc60ffff539e781f2e351195653c5d7",
+    "/flesch-quiz/main-es5.js": "96dd59f714a4e87d8cde2fe024b5adfe3d932449",
+    "/flesch-quiz/manifest.webmanifest": "9a8f9960d45f8883134989868baa3749dad34961",
     "/flesch-quiz/polyfills-es2015.js": "0ad639934b41612425791f874dac75b38de86049",
     "/flesch-quiz/polyfills-es5.js": "f35b60306a767c3f163a2f42a82c53a238612a6c",
+    "/flesch-quiz/polyfills-nomodule-es5.js": "f3749822d400c2f42b1844c9b73555f73fdb64b9",
     "/flesch-quiz/runtime-es2015.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/flesch-quiz/runtime-es5.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/flesch-quiz/styles.css": "1767fb8e20a7f8d4475c064415c3da4e47a8704f"

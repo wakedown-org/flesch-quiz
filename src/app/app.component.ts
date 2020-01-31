@@ -72,7 +72,6 @@ export class AppComponent {
   loadNextUser() {
     this.answersSvc.getLastUser().then((user) => {
       this.userInfo = user;
-      console.log('user', this.userInfo);
     })
   }
 

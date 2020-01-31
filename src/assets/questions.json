@@ -1,50 +1,38 @@
 [
     {
-        "question": "Onde gosta de ir?",
+        "question": "O que gosta de fazer no tempo livre?",
         "answers": [
             {
                 "answer": "Gosta de buscar informações em livros e internet, prefere ficar em casa!",
                 "weight": {
-                    "exatas": 3,
-                    "biologicas": 3,
-                    "engenhariatecnologia": 12,
-                    "saude": 10,
-                    "agrarias": 0,
-                    "sociais": 5,
-                    "humanas": 5,
-                    "linguistica": 7,
-                    "letras": 7,
-                    "artes": 0
+                    "Ciências Exatas": 5,
+                    "Ciências Biologicas": 4,
+                    "Saúde": 3,
+                    "Comunicação e Expressão": 2,
+                    "Artes": 1,
+                    "Ciências Humanas": 3
                 }
             },
             {
-                "answer": "Adora viajar, conhecer novos lugares! Não gosta de ficar em casa.",
+                "answer": "Adora viajar, conhecer novos lugares!",
                 "weight": {
-                    "exatas": 12,
-                    "biologicas": 10,
-                    "engenhariatecnologia": 6,
-                    "saude": 2,
-                    "agrarias": 8,
-                    "sociais": 8,
-                    "humanas": 10,
-                    "linguistica": 9,
-                    "letras": 4,
-                    "artes": 10
+                    "Ciências Exatas": 1,
+                    "Ciências Biologicas": 4,
+                    "Saúde": 2,
+                    "Comunicação e Expressão": 5,
+                    "Artes": 4,
+                    "Ciências Humanas": 4
                 }
             },
             {
-                "answer": "Gosta de sair, mas prefere lugares calmos e que não seja muito cheio.",
+                "answer": "Gosta de sair, mas prefere lugares calmos.",
                 "weight": {
-                    "exatas": 10,
-                    "biologicas": 12,
-                    "engenhariatecnologia": 7,
-                    "saude": 5,
-                    "agrarias": 11,
-                    "sociais": 3,
-                    "humanas": 2,
-                    "linguistica": 4,
-                    "letras": 2,
-                    "artes": 6
+                    "Ciências Exatas": 3,
+                    "Ciências Biologicas": 5,
+                    "Saúde": 4,
+                    "Comunicação e Expressão": 3,
+                    "Artes": 1,
+                    "Ciências Humanas": 2
                 }
             }
         ]
@@ -55,96 +43,151 @@
             {
                 "answer": "Leão",
                 "weight": {
-                    "exatas": 11,
-                    "biologicas": 8,
-                    "engenhariatecnologia": 4,
-                    "saude": 7,
-                    "agrarias": 6,
-                    "sociais": 8,
-                    "humanas": 12,
-                    "linguistica": 2,
-                    "letras": 0,
-                    "artes": 3
+                                        
+		    "Ciências Exatas": 5,
+                    "Ciências Biologicas": 2,
+                    "Saúde": 3,
+                    "Comunicação e Expressão": 5,
+                    "Artes": 5,
+                    "Ciências Humanas": 2
                 }
             },
             {
-                "answer": "Crocodilo",
+                "answer": "Gorila",
                 "weight": {
-                    "exatas": 11,
-                    "biologicas": 12,
-                    "engenhariatecnologia": 9,
-                    "saude": 7,
-                    "agrarias": 3,
-                    "sociais": 5,
-                    "humanas": 4,
-                    "linguistica": 7,
-                    "letras": 5,
-                    "artes": 8
+                                      
+	            "Ciências Exatas": 2,
+                    "Ciências Biologicas": 4,
+                    "Saúde": 1,
+                    "Comunicação e Expressão":5,
+                    "Artes": 4,
+                    "Ciências Humanas": 4
                 }
             },
             {
-                "answer": "Águia",
+                "answer": "Urso",
                 "weight": {
-                    "exatas": 2,
-                    "biologicas": 0,
-                    "engenhariatecnologia": 10,
-                    "saude": 8,
-                    "agrarias": 2,
-                    "sociais": 6,
-                    "humanas": 5,
-                    "linguistica": 7,
-                    "letras": 5,
-                    "artes": 12
+                    "Ciências Exatas": 1,
+                    "Ciências Biologicas": 3,
+                    "Saúde": 5,
+                    "Comunicação e Expressão": 1,
+                    "Artes": 3,
+                    "Ciências Humanas": 5
                 }
             }
         ]
     },
     {
-        "question": "Como você trabalha em equipe?",
+        "question": "Quando você está realizando um trabalho em equipe, você",
         "answers": [
             {
-                "answer": "Gostar de direcionar à todos o que irão fazer e prefere estar a frente do projeto.",
+                "answer": "Toma a frente e divide as tarefas entre os demais.",
                 "weight": {
-                    "exatas": 10,
-                    "biologicas": 12,
-                    "engenhariatecnologia": 7,
-                    "saude": 5,
-                    "agrarias": 11,
-                    "sociais": 3,
-                    "humanas": 2,
-                    "linguistica": 4,
-                    "letras": 2,
-                    "artes": 6
+                    "Ciências Exatas": 2,
+                    "Ciências Biologicas": 2,
+                    "Saúde": 5,
+                    "Comunicação e Expressão": 5,
+                    "Artes": 1,
+                    "Ciências Humanas": 2
                 }
             },
             {
-                "answer": "Ajuda a equipe, mas se pudesse faria sozinho! Não gosta de trabalhar em equipe!",
+                "answer": "Não gosta de trabalhar em equipe!",
                 "weight": {
-                    "exatas": 2,
-                    "biologicas": 0,
-                    "engenhariatecnologia": 10,
-                    "saude": 8,
-                    "agrarias": 2,
-                    "sociais": 6,
-                    "humanas": 5,
-                    "linguistica": 7,
-                    "letras": 5,
-                    "artes": 12
+                    "Ciências Exatas": 5,
+                    "Ciências Biologicas": 1,
+                    "Saúde": 3,
+                    "Comunicação e Expressão": 2,
+                    "Artes": 5,
+                    "Ciências Humanas": 4
                 }
             },
             {
-                "answer": "Prefere que a tarefa esteja dividida corretamente para cada um!",
+                "answer": "Prefere que a tarefa esteja dividida igualmente para cada um!",
                 "weight": {
-                    "exatas": 12,
-                    "biologicas": 10,
-                    "engenhariatecnologia": 6,
-                    "saude": 2,
-                    "agrarias": 8,
-                    "sociais": 8,
-                    "humanas": 10,
-                    "linguistica": 9,
-                    "letras": 4,
-                    "artes": 10
+                    "Ciências Exatas": 4,
+                    "Ciências Biologicas": 5,
+                    "Saúde": 4,
+                    "Comunicação e Expressão": 3,
+                    "Artes": 1,
+                    "Ciências Humanas": 5
+                }
+            }
+        ]
+    },
+    {
+        "question": "Qual dessas atividades você faria em seu tempo livre?",
+        "answers": [
+            {
+                "answer": "Pintar um quadro",
+                "weight": {
+                    "Ciências Exatas": 1,
+                    "Ciências Biologicas": 3,
+                    "Saúde": 2,
+                    "Comunicação e Expressão": 4,
+                    "Artes": 5,
+                    "Ciências Humanas": 3
+                }
+            },
+            {
+                "answer": "Ler um bom livro de ficção",
+                "weight": {
+                    "Ciências Exatas": 4,
+                    "Ciências Biologicas": 3,
+                    "Saúde": 3,
+                    "Comunicação e Expressão": 2,
+                    "Artes": 4,
+                    "Ciências Humanas": 5
+                }
+            },
+            {
+                "answer": "Jogar um game eletrônico.",
+                "weight": {
+                    "Ciências Exatas": 5,
+                    "Ciências Biologicas": 1,
+                    "Saúde": 1,
+                    "Comunicação e Expressão": 4,
+                    "Artes": 2,
+                    "Ciências Humanas": 3
+                }
+            }
+        ]
+    },
+
+    {
+        "question": "Qual seria o seu emprego ideal",
+        "answers": [
+            {
+                "answer": "Desafio de sempre estar criando algo novo",
+                "weight": {
+                    "Ciências Exatas": 1,
+                    "Ciências Biologicas": 2,
+                    "Saúde": 2,
+                    "Comunicação e Expressão": 4,
+                    "Artes": 5,
+                    "Ciências Humanas": 1
+                }
+            },
+            {
+                "answer": "Em constante contato com outras pessoas",
+                "weight": {
+                    "Ciências Exatas": 2,
+                    "Ciências Biologicas": 3,
+                    "Saúde": 5,
+                    "Comunicação e Expressão": 3,
+                    "Artes": 1,
+                    "Ciências Humanas": 5
+                }
+            },
+            {
+                "answer": "Trabalhando com soluções de problemas",
+                "weight": {
+                    "Ciências Exatas": 5,
+                    "Ciências Biologicas": 4,
+                    "Saúde": 5,
+                    "Comunicação e Expressão": 1,
+                    "Artes": 1,
+                    "Ciências Humanas": 3
                 }
             }
         ]

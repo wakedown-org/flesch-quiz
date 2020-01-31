@@ -42,14 +42,38 @@ export class ResultComponent implements OnInit {
   barChartOptions: ChartOptions = {
     responsive: true,
   };
-  barChartLabelsProp: Label[] = ['exatas', 'biologicas', 'engenhariatecnologia', 'saude', 'agrarias', 'sociais', 'humanas', 'linguistica', 'letras', 'artes' ];
-  barChartLabels: Label[] = ['CIÊNCIAS EXATAS E DA TERRA', 'CIÊNCIAS BIOLÓGICAS', 'ENGENHARIA / TECNOLOGIA', 'CIÊNCIAS DE SAÚDE', 'CIÊNCIAS AGRÁRIAS', 'CIÊNCIAS SOCIAIS', 'CIÊNCIAS HUMANAS', 'LINGUISTICA', 'LETRAS', 'ARTES' ];
+  barChartLabelsProp: Label[] = [
+    'exatas', 
+    'biologicas', 
+    // 'engenhariatecnologia', 
+    'saude', 
+    // 'agrarias', 
+    // 'sociais', 
+    'humanas', 
+    // 'linguistica', 
+    // 'letras', 
+    'artes',
+    'comunicacao'
+  ];
+  barChartLabels: Label[] = [
+    'Ciências Exatas', 
+    'Ciências Biologicas', 
+    // 'ENGENHARIA / TECNOLOGIA', 
+    'Saúde', 
+    // 'CIÊNCIAS AGRÁRIAS', 
+    // 'CIÊNCIAS SOCIAIS', 
+    'Ciências Humanas', 
+    // 'LINGUISTICA', 
+    // 'LETRAS', 
+    'Artes',
+    'Comunicação e Expressão'
+   ];
   barChartType: ChartType = 'bar';
   barChartLegend = false;
   barChartPlugins = [];
 
   barChartData: ChartDataSets[] = [
-    { data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+    { data: [0, 0, 0, 0, 0, 0/*, 0, 0, 0, 0*/] }
   ];
 
   get maxValue(): string {
