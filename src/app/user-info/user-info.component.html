@@ -24,7 +24,7 @@
     </mat-form-field>
 
     <mat-form-field>
-        <textarea matInput rows="4" style="resize: none; overflow: visible;" placeholder="Termos e Condições" readonly [(ngModel)]="termos"></textarea>
+        <textarea matInput rows="2" style="resize: none;" placeholder="Termos e Condições" readonly [(ngModel)]="termos"></textarea>
         <mat-radio-group class="termos-radio" aria-label="Aceita os termos?" [(ngModel)]="user.aceitaTermos">
             <mat-radio-button class="termos-radio-option" [value]="true">Sim</mat-radio-button>
             <mat-radio-button class="termos-radio-option" [value]="false">Não</mat-radio-button>
