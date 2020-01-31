@@ -5,34 +5,34 @@
             {
                 "answer": "Gosta de buscar informações em livros e internet, prefere ficar em casa!",
                 "weight": {
-                    "Ciências Exatas": 5,
-                    "Ciências Biologicas": 4,
-                    "Saúde": 3,
-                    "Comunicação e Expressão": 2,
-                    "Artes": 1,
-                    "Ciências Humanas": 3
+                    "exatas": 5,
+                    "biologicas": 4,
+                    "saude": 3,
+                    "comunicacao": 2,
+                    "artes": 1,
+                    "humanas": 3
                 }
             },
             {
                 "answer": "Adora viajar, conhecer novos lugares!",
                 "weight": {
-                    "Ciências Exatas": 1,
-                    "Ciências Biologicas": 4,
-                    "Saúde": 2,
-                    "Comunicação e Expressão": 5,
-                    "Artes": 4,
-                    "Ciências Humanas": 4
+                    "exatas": 1,
+                    "biologicas": 4,
+                    "saude": 2,
+                    "comunicacao": 5,
+                    "artes": 4,
+                    "humanas": 4
                 }
             },
             {
                 "answer": "Gosta de sair, mas prefere lugares calmos.",
                 "weight": {
-                    "Ciências Exatas": 3,
-                    "Ciências Biologicas": 5,
-                    "Saúde": 4,
-                    "Comunicação e Expressão": 3,
-                    "Artes": 1,
-                    "Ciências Humanas": 2
+                    "exatas": 3,
+                    "biologicas": 5,
+                    "saude": 4,
+                    "comunicacao": 3,
+                    "artes": 1,
+                    "humanas": 2
                 }
             }
         ]
@@ -43,36 +43,34 @@
             {
                 "answer": "Leão",
                 "weight": {
-                                        
-		    "Ciências Exatas": 5,
-                    "Ciências Biologicas": 2,
-                    "Saúde": 3,
-                    "Comunicação e Expressão": 5,
-                    "Artes": 5,
-                    "Ciências Humanas": 2
+                    "exatas": 5,
+                    "biologicas": 2,
+                    "saude": 3,
+                    "comunicacao": 5,
+                    "artes": 5,
+                    "humanas": 2
                 }
             },
             {
                 "answer": "Gorila",
                 "weight": {
-                                      
-	            "Ciências Exatas": 2,
-                    "Ciências Biologicas": 4,
-                    "Saúde": 1,
-                    "Comunicação e Expressão":5,
-                    "Artes": 4,
-                    "Ciências Humanas": 4
+                    "exatas": 2,
+                    "biologicas": 4,
+                    "saude": 1,
+                    "comunicacao":5,
+                    "artes": 4,
+                    "humanas": 4
                 }
             },
             {
                 "answer": "Urso",
                 "weight": {
-                    "Ciências Exatas": 1,
-                    "Ciências Biologicas": 3,
-                    "Saúde": 5,
-                    "Comunicação e Expressão": 1,
-                    "Artes": 3,
-                    "Ciências Humanas": 5
+                    "exatas": 1,
+                    "biologicas": 3,
+                    "saude": 5,
+                    "comunicacao": 1,
+                    "artes": 3,
+                    "humanas": 5
                 }
             }
         ]
@@ -83,34 +81,34 @@
             {
                 "answer": "Toma a frente e divide as tarefas entre os demais.",
                 "weight": {
-                    "Ciências Exatas": 2,
-                    "Ciências Biologicas": 2,
-                    "Saúde": 5,
-                    "Comunicação e Expressão": 5,
-                    "Artes": 1,
-                    "Ciências Humanas": 2
+                    "exatas": 2,
+                    "biologicas": 2,
+                    "saude": 5,
+                    "comunicacao": 5,
+                    "artes": 1,
+                    "humanas": 2
                 }
             },
             {
                 "answer": "Não gosta de trabalhar em equipe!",
                 "weight": {
-                    "Ciências Exatas": 5,
-                    "Ciências Biologicas": 1,
-                    "Saúde": 3,
-                    "Comunicação e Expressão": 2,
-                    "Artes": 5,
-                    "Ciências Humanas": 4
+                    "exatas": 5,
+                    "biologicas": 1,
+                    "saude": 3,
+                    "comunicacao": 2,
+                    "artes": 5,
+                    "humanas": 4
                 }
             },
             {
                 "answer": "Prefere que a tarefa esteja dividida igualmente para cada um!",
                 "weight": {
-                    "Ciências Exatas": 4,
-                    "Ciências Biologicas": 5,
-                    "Saúde": 4,
-                    "Comunicação e Expressão": 3,
-                    "Artes": 1,
-                    "Ciências Humanas": 5
+                    "exatas": 4,
+                    "biologicas": 5,
+                    "saude": 4,
+                    "comunicacao": 3,
+                    "artes": 1,
+                    "humanas": 5
                 }
             }
         ]
@@ -121,34 +119,34 @@
             {
                 "answer": "Pintar um quadro",
                 "weight": {
-                    "Ciências Exatas": 1,
-                    "Ciências Biologicas": 3,
-                    "Saúde": 2,
-                    "Comunicação e Expressão": 4,
-                    "Artes": 5,
-                    "Ciências Humanas": 3
+                    "exatas": 1,
+                    "biologicas": 3,
+                    "saude": 2,
+                    "comunicacao": 4,
+                    "artes": 5,
+                    "humanas": 3
                 }
             },
             {
                 "answer": "Ler um bom livro de ficção",
                 "weight": {
-                    "Ciências Exatas": 4,
-                    "Ciências Biologicas": 3,
-                    "Saúde": 3,
-                    "Comunicação e Expressão": 2,
-                    "Artes": 4,
-                    "Ciências Humanas": 5
+                    "exatas": 4,
+                    "biologicas": 3,
+                    "saude": 3,
+                    "comunicacao": 2,
+                    "artes": 4,
+                    "humanas": 5
                 }
             },
             {
                 "answer": "Jogar um game eletrônico.",
                 "weight": {
-                    "Ciências Exatas": 5,
-                    "Ciências Biologicas": 1,
-                    "Saúde": 1,
-                    "Comunicação e Expressão": 4,
-                    "Artes": 2,
-                    "Ciências Humanas": 3
+                    "exatas": 5,
+                    "biologicas": 1,
+                    "saude": 1,
+                    "comunicacao": 4,
+                    "artes": 2,
+                    "humanas": 3
                 }
             }
         ]
@@ -160,34 +158,34 @@
             {
                 "answer": "Desafio de sempre estar criando algo novo",
                 "weight": {
-                    "Ciências Exatas": 1,
-                    "Ciências Biologicas": 2,
-                    "Saúde": 2,
-                    "Comunicação e Expressão": 4,
-                    "Artes": 5,
-                    "Ciências Humanas": 1
+                    "exatas": 1,
+                    "biologicas": 2,
+                    "saude": 2,
+                    "comunicacao": 4,
+                    "artes": 5,
+                    "humanas": 1
                 }
             },
             {
                 "answer": "Em constante contato com outras pessoas",
                 "weight": {
-                    "Ciências Exatas": 2,
-                    "Ciências Biologicas": 3,
-                    "Saúde": 5,
-                    "Comunicação e Expressão": 3,
-                    "Artes": 1,
-                    "Ciências Humanas": 5
+                    "exatas": 2,
+                    "biologicas": 3,
+                    "saude": 5,
+                    "comunicacao": 3,
+                    "artes": 1,
+                    "humanas": 5
                 }
             },
             {
                 "answer": "Trabalhando com soluções de problemas",
                 "weight": {
-                    "Ciências Exatas": 5,
-                    "Ciências Biologicas": 4,
-                    "Saúde": 5,
-                    "Comunicação e Expressão": 1,
-                    "Artes": 1,
-                    "Ciências Humanas": 3
+                    "exatas": 5,
+                    "biologicas": 4,
+                    "saude": 5,
+                    "comunicacao": 1,
+                    "artes": 1,
+                    "humanas": 3
                 }
             }
         ]

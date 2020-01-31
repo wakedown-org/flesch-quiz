@@ -5,7 +5,7 @@
             {
                 "answer": "Gosta de buscar informações em livros e internet, prefere ficar em casa!",
                 "weight": {
-                    "Ciências Exatas": 5,
+                    "exatas": 5,
                     "Ciências Biologicas": 4,
                     "Saúde": 3,
                     "Comunicação e Expressão": 2,
@@ -16,7 +16,7 @@
             {
                 "answer": "Adora viajar, conhecer novos lugares!",
                 "weight": {
-                    "Ciências Exatas": 1,
+                    "exatas": 1,
                     "Ciências Biologicas": 4,
                     "Saúde": 2,
                     "Comunicação e Expressão": 5,
@@ -27,8 +27,8 @@
             {
                 "answer": "Gosta de sair, mas prefere lugares calmos.",
                 "weight": {
-                    "Ciências Exatas": 3,
-                    "Ciências Biologicas": 5,
+                    "exatas": 3,
+                    "biologicas": 5,
                     "Saúde": 4,
                     "Comunicação e Expressão": 3,
                     "Artes": 1,
@@ -43,9 +43,8 @@
             {
                 "answer": "Leão",
                 "weight": {
-                                        
-		    "Ciências Exatas": 5,
-                    "Ciências Biologicas": 2,
+                    "exatas": 5,
+                    "biologicas": 2,
                     "Saúde": 3,
                     "Comunicação e Expressão": 5,
                     "Artes": 5,
@@ -55,9 +54,8 @@
             {
                 "answer": "Gorila",
                 "weight": {
-                                      
-	            "Ciências Exatas": 2,
-                    "Ciências Biologicas": 4,
+                    "exatas": 2,
+                    "biologicas": 4,
                     "Saúde": 1,
                     "Comunicação e Expressão":5,
                     "Artes": 4,
@@ -67,8 +65,8 @@
             {
                 "answer": "Urso",
                 "weight": {
-                    "Ciências Exatas": 1,
-                    "Ciências Biologicas": 3,
+                    "exatas": 1,
+                    "biologicas": 3,
                     "Saúde": 5,
                     "Comunicação e Expressão": 1,
                     "Artes": 3,
@@ -83,8 +81,8 @@
             {
                 "answer": "Toma a frente e divide as tarefas entre os demais.",
                 "weight": {
-                    "Ciências Exatas": 2,
-                    "Ciências Biologicas": 2,
+                    "exatas": 2,
+                    "biologicas": 2,
                     "Saúde": 5,
                     "Comunicação e Expressão": 5,
                     "Artes": 1,
@@ -94,8 +92,8 @@
             {
                 "answer": "Não gosta de trabalhar em equipe!",
                 "weight": {
-                    "Ciências Exatas": 5,
-                    "Ciências Biologicas": 1,
+                    "exatas": 5,
+                    "biologicas": 1,
                     "Saúde": 3,
                     "Comunicação e Expressão": 2,
                     "Artes": 5,
@@ -105,8 +103,8 @@
             {
                 "answer": "Prefere que a tarefa esteja dividida igualmente para cada um!",
                 "weight": {
-                    "Ciências Exatas": 4,
-                    "Ciências Biologicas": 5,
+                    "exatas": 4,
+                    "biologicas": 5,
                     "Saúde": 4,
                     "Comunicação e Expressão": 3,
                     "Artes": 1,
@@ -121,8 +119,8 @@
             {
                 "answer": "Pintar um quadro",
                 "weight": {
-                    "Ciências Exatas": 1,
-                    "Ciências Biologicas": 3,
+                    "exatas": 1,
+                    "biologicas": 3,
                     "Saúde": 2,
                     "Comunicação e Expressão": 4,
                     "Artes": 5,
@@ -132,8 +130,8 @@
             {
                 "answer": "Ler um bom livro de ficção",
                 "weight": {
-                    "Ciências Exatas": 4,
-                    "Ciências Biologicas": 3,
+                    "exatas": 4,
+                    "biologicas": 3,
                     "Saúde": 3,
                     "Comunicação e Expressão": 2,
                     "Artes": 4,
@@ -143,8 +141,8 @@
             {
                 "answer": "Jogar um game eletrônico.",
                 "weight": {
-                    "Ciências Exatas": 5,
-                    "Ciências Biologicas": 1,
+                    "exatas": 5,
+                    "biologicas": 1,
                     "Saúde": 1,
                     "Comunicação e Expressão": 4,
                     "Artes": 2,
@@ -160,8 +158,8 @@
             {
                 "answer": "Desafio de sempre estar criando algo novo",
                 "weight": {
-                    "Ciências Exatas": 1,
-                    "Ciências Biologicas": 2,
+                    "exatas": 1,
+                    "biologicas": 2,
                     "Saúde": 2,
                     "Comunicação e Expressão": 4,
                     "Artes": 5,
@@ -171,8 +169,8 @@
             {
                 "answer": "Em constante contato com outras pessoas",
                 "weight": {
-                    "Ciências Exatas": 2,
-                    "Ciências Biologicas": 3,
+                    "exatas": 2,
+                    "biologicas": 3,
                     "Saúde": 5,
                     "Comunicação e Expressão": 3,
                     "Artes": 1,
@@ -182,8 +180,8 @@
             {
                 "answer": "Trabalhando com soluções de problemas",
                 "weight": {
-                    "Ciências Exatas": 5,
-                    "Ciências Biologicas": 4,
+                    "exatas": 5,
+                    "biologicas": 4,
                     "Saúde": 5,
                     "Comunicação e Expressão": 1,
                     "Artes": 1,
