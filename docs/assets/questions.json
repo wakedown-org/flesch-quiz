@@ -144,7 +144,7 @@
                     "exatas": 8,
                     "biologicas": 3,
                     "saude": 2,
-                    "comunicacao": 5,
+                    "comunicacao": 3,
                     "artes": 2,
                     "humanas": 3
                 }
@@ -161,7 +161,7 @@
                     "exatas": 2,
                     "biologicas": 3,
                     "saude": 2,
-                    "comunicacao": 7,
+                    "comunicacao": 8,
                     "artes": 9,
                     "humanas": 3
                 }
@@ -172,7 +172,7 @@
                     "exatas": 3,
                     "biologicas": 5,
                     "saude": 10,
-                    "comunicacao": 8,
+                    "comunicacao": 5,
                     "artes": 3,
                     "humanas": 9
                 }
@@ -183,7 +183,7 @@
                     "exatas": 10,
                     "biologicas": 8,
                     "saude": 9,
-                    "comunicacao": 6,
+                    "comunicacao": 3,
                     "artes": 3,
                     "humanas": 5
                 }
