@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1580253738762,
+  "timestamp": 1580433757801,
   "index": "/flesch-quiz/index.html",
   "assetGroups": [
     {
@@ -52,8 +52,8 @@
     "/flesch-quiz/assets/questions.json": "2c953244996129baf63cf56dd82af13e4944b160",
     "/flesch-quiz/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "/flesch-quiz/index.html": "8fe87e0f907a497fbbff0013a065ff2ef91a4864",
-    "/flesch-quiz/main-es2015.js": "49ab49d455b82814e272c4efc61f5381ffea587f",
-    "/flesch-quiz/main-es5.js": "ca51a4d31d04c025fca16a1e674595a94f4bf231",
+    "/flesch-quiz/main-es2015.js": "6ac3e5b8071df78fb20f718867d6fa07848f2ddd",
+    "/flesch-quiz/main-es5.js": "ceee35de0dd653fc046bc6b86eb6571ff651b81d",
     "/flesch-quiz/manifest.webmanifest": "56176fc3b053cb856a7ec8fafb38650bf58b55ab",
     "/flesch-quiz/polyfills-es2015.js": "0ad639934b41612425791f874dac75b38de86049",
     "/flesch-quiz/polyfills-es5.js": "f35b60306a767c3f163a2f42a82c53a238612a6c",
