@@ -6,4 +6,9 @@
   
 .example-radio-button {
     margin: 5px;
+    width: 100%;
+}
+
+label.mat-radio-label {
+    white-space:pre-line !important;
 }

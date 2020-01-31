@@ -1,9 +1,10 @@
-import { Component, Input, Output, OnInit, EventEmitter } from '@angular/core';
+import { Component, Input, Output, OnInit, EventEmitter, ViewEncapsulation } from '@angular/core';
 import { Answer } from '../_models/answer';
 
 @Component({
   selector: 'app-question',
   templateUrl: './question.component.html',
+  encapsulation: ViewEncapsulation.None,
   styleUrls: ['./question.component.scss']
 })
 export class QuestionComponent implements OnInit {

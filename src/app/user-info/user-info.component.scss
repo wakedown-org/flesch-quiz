@@ -1,8 +1,19 @@
 .example-container {
     display: flex;
+    min-width: 400px;
     flex-direction: column;
 }
 
 .example-container > * {
     width: 100%;
+}
+
+.termos-radio {
+    margin-top: 8px;
+    margin-left: 35%;
+    width: 100%;
+
+    .termos-radio-option {
+        margin: 8px 4px;
+    }
 }

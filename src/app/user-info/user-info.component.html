@@ -8,6 +8,26 @@
     </mat-form-field>
 
     <mat-form-field>
-        <input matInput placeholder="Telefone" [(ngModel)]="user.telefone" (keyup)="keyup()">
+        <input matInput placeholder="Celular" [(ngModel)]="user.celular" (keyup)="keyup()">
+    </mat-form-field>
+
+    <mat-form-field>
+        <input matInput placeholder="Cidade" [(ngModel)]="user.cidade" (keyup)="keyup()">
+    </mat-form-field>
+
+    <mat-form-field>
+        <input matInput placeholder="Estuda em alguma faculdade/universidade? Qual?" [(ngModel)]="user.intituicao" (keyup)="keyup()">
+    </mat-form-field>
+
+    <mat-form-field>
+        <input matInput placeholder="Curso" [(ngModel)]="user.curso" (keyup)="keyup()">
+    </mat-form-field>
+
+    <mat-form-field>
+        <textarea matInput rows="4" style="resize: none; overflow: visible;" placeholder="Termos e Condições" readonly [(ngModel)]="termos"></textarea>
+        <mat-radio-group class="termos-radio" aria-label="Aceita os termos?" [(ngModel)]="user.aceitaTermos">
+            <mat-radio-button class="termos-radio-option" [value]="true">Sim</mat-radio-button>
+            <mat-radio-button class="termos-radio-option" [value]="false">Não</mat-radio-button>
+          </mat-radio-group>
     </mat-form-field>
 </div>

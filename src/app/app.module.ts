@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { MatFormFieldModule, MatInputModule, MatSelectModule, MatOptionModule, MatRadioModule, MatButtonModule, MatIconModule, MatMenuModule, MatBadgeModule } from '@angular/material';
+import { MatFormFieldModule, MatInputModule, MatSelectModule, MatOptionModule, MatRadioModule, MatButtonModule, MatIconModule, MatMenuModule, MatBadgeModule, MatCardModule } from '@angular/material';
 import { NgxIndexedDBModule, DBConfig } from 'ngx-indexed-db';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -70,6 +70,7 @@ const dbConfig: DBConfig  = {
     MatIconModule,
     MatMenuModule,
     MatBadgeModule,
+    MatCardModule,
     HttpClientModule,
     ChartsModule,
     NgxIndexedDBModule.forRoot(dbConfig),

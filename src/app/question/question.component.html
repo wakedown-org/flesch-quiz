@@ -1,4 +1,10 @@
-<label id="example-radio-group-label">{{question}}</label>
-<mat-radio-group aria-labelledby="example-radio-group-label" class="example-radio-group" (change)="radioChange($event)" [(ngModel)]="answer">
-  <mat-radio-button class="example-radio-button" *ngFor="let _answer of answers" [value]="_answer.weight">{{_answer.answer}}</mat-radio-button>
-</mat-radio-group>
+<mat-card>
+  <mat-card-title>
+    <label id="example-radio-group-label">{{question}}</label>
+  </mat-card-title>
+  <mat-radio-group aria-labelledby="example-radio-group-label" class="example-radio-group" (change)="radioChange($event)" [(ngModel)]="answer">
+    <mat-card-subtitle>
+      <mat-radio-button class="example-radio-button" *ngFor="let _answer of answers" [value]="_answer.weight">{{_answer.answer}}</mat-radio-button>
+    </mat-card-subtitle>
+  </mat-radio-group>
+</mat-card>

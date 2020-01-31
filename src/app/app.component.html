@@ -3,8 +3,9 @@
   <span>Pesquisa</span>
   <div class="spacer"></div>
   <mat-menu #appMenu="matMenu">
-    <button mat-menu-item (click)="clearData()">Limpar Dados</button>
+    <button mat-menu-item (click)="salvar()">Salvar e Recomeçar</button>
     <button mat-menu-item (click)="export()">Exportar</button>
+    <button mat-menu-item (click)="clearData()">Limpar Dados</button>
   </mat-menu>
   <button mat-icon-button [matBadge]="usersCount" matBadgePosition="below before" matBadgeColor="accent" color="primary" id="user-list" [matMenuTriggerFor]="appMenu" aria-label="Lista das respostas">
     <mat-icon>account_box</mat-icon>
@@ -16,7 +17,7 @@
   <h2>Perfil</h2>
   <p>Insira as informações abaixo:</p>
 
-  <app-user-info [(user)]="userInfo" (keyUp)="keyup()"></app-user-info>
+  <app-user-info [(user)]="userInfo" [termos]="termos" (keyUp)="keyup()"></app-user-info>
 
   <div class="card-container">
     <a class="card" target="_blank" rel="noopener" href="#" (click)="initQuestions()">
