@@ -5,34 +5,34 @@
             {
                 "answer": "Gosta de buscar informações em livros e internet, prefere ficar em casa!",
                 "weight": {
-                    "exatas": 5,
-                    "biologicas": 4,
-                    "saude": 3,
+                    "exatas": 8,
+                    "biologicas": 7,
+                    "saude": 4,
                     "comunicacao": 2,
                     "artes": 1,
-                    "humanas": 3
+                    "humanas": 5
                 }
             },
             {
                 "answer": "Adora viajar, conhecer novos lugares!",
                 "weight": {
-                    "exatas": 1,
-                    "biologicas": 4,
-                    "saude": 2,
-                    "comunicacao": 5,
-                    "artes": 4,
-                    "humanas": 4
+                    "exatas": 2,
+                    "biologicas": 5,
+                    "saude": 3,
+                    "comunicacao": 9,
+                    "artes": 6,
+                    "humanas": 7
                 }
             },
             {
                 "answer": "Gosta de sair, mas prefere lugares calmos.",
                 "weight": {
                     "exatas": 3,
-                    "biologicas": 5,
+                    "biologicas": 8,
                     "saude": 4,
                     "comunicacao": 3,
                     "artes": 1,
-                    "humanas": 2
+                    "humanas": 4
                 }
             }
         ]
@@ -43,10 +43,10 @@
             {
                 "answer": "Leão",
                 "weight": {
-                    "exatas": 5,
-                    "biologicas": 2,
-                    "saude": 3,
-                    "comunicacao": 5,
+                    "exatas": 8,
+                    "biologicas": 3,
+                    "saude": 4,
+                    "comunicacao": 7,
                     "artes": 5,
                     "humanas": 2
                 }
@@ -57,20 +57,20 @@
                     "exatas": 2,
                     "biologicas": 4,
                     "saude": 1,
-                    "comunicacao":5,
-                    "artes": 4,
-                    "humanas": 4
+                    "comunicacao":8,
+                    "artes": 9,
+                    "humanas": 6
                 }
             },
             {
                 "answer": "Urso",
                 "weight": {
-                    "exatas": 1,
-                    "biologicas": 3,
-                    "saude": 5,
-                    "comunicacao": 1,
-                    "artes": 3,
-                    "humanas": 5
+                    "exatas": 3,
+                    "biologicas": 8,
+                    "saude": 10,
+                    "comunicacao": 2,
+                    "artes": 5,
+                    "humanas": 10
                 }
             }
         ]
@@ -81,34 +81,34 @@
             {
                 "answer": "Toma a frente e divide as tarefas entre os demais.",
                 "weight": {
-                    "exatas": 2,
-                    "biologicas": 2,
-                    "saude": 5,
-                    "comunicacao": 5,
-                    "artes": 1,
-                    "humanas": 2
+                    "exatas": 4,
+                    "biologicas": 5,
+                    "saude": 7,
+                    "comunicacao": 8,
+                    "artes": 3,
+                    "humanas": 4
                 }
             },
             {
                 "answer": "Não gosta de trabalhar em equipe!",
                 "weight": {
-                    "exatas": 5,
-                    "biologicas": 1,
-                    "saude": 3,
+                    "exatas": 9,
+                    "biologicas": 3,
+                    "saude": 5,
                     "comunicacao": 2,
-                    "artes": 5,
-                    "humanas": 4
+                    "artes": 9,
+                    "humanas": 6
                 }
             },
             {
                 "answer": "Prefere que a tarefa esteja dividida igualmente para cada um!",
                 "weight": {
-                    "exatas": 4,
-                    "biologicas": 5,
-                    "saude": 4,
-                    "comunicacao": 3,
-                    "artes": 1,
-                    "humanas": 5
+                    "exatas": 6,
+                    "biologicas": 9,
+                    "saude": 7,
+                    "comunicacao": 5,
+                    "artes": 2,
+                    "humanas": 8 
                 }
             }
         ]
@@ -119,32 +119,32 @@
             {
                 "answer": "Pintar um quadro",
                 "weight": {
-                    "exatas": 1,
-                    "biologicas": 3,
-                    "saude": 2,
-                    "comunicacao": 4,
-                    "artes": 5,
-                    "humanas": 3
+                    "exatas": 2,
+                    "biologicas": 4,
+                    "saude": 3,
+                    "comunicacao": 8,
+                    "artes": 10,
+                    "humanas": 5
                 }
             },
             {
                 "answer": "Ler um bom livro de ficção",
                 "weight": {
                     "exatas": 4,
-                    "biologicas": 3,
-                    "saude": 3,
+                    "biologicas": 5,
+                    "saude": 6,
                     "comunicacao": 2,
-                    "artes": 4,
-                    "humanas": 5
+                    "artes": 8,
+                    "humanas": 10
                 }
             },
             {
                 "answer": "Jogar um game eletrônico.",
                 "weight": {
-                    "exatas": 5,
-                    "biologicas": 1,
-                    "saude": 1,
-                    "comunicacao": 4,
+                    "exatas": 8,
+                    "biologicas": 3,
+                    "saude": 2,
+                    "comunicacao": 3,
                     "artes": 2,
                     "humanas": 3
                 }
@@ -158,34 +158,34 @@
             {
                 "answer": "Desafio de sempre estar criando algo novo",
                 "weight": {
-                    "exatas": 1,
-                    "biologicas": 2,
+                    "exatas": 2,
+                    "biologicas": 3,
                     "saude": 2,
-                    "comunicacao": 4,
-                    "artes": 5,
-                    "humanas": 1
+                    "comunicacao": 8,
+                    "artes": 9,
+                    "humanas": 3
                 }
             },
             {
                 "answer": "Em constante contato com outras pessoas",
                 "weight": {
-                    "exatas": 2,
-                    "biologicas": 3,
-                    "saude": 5,
-                    "comunicacao": 3,
-                    "artes": 1,
-                    "humanas": 5
+                    "exatas": 3,
+                    "biologicas": 5,
+                    "saude": 10,
+                    "comunicacao": 5,
+                    "artes": 3,
+                    "humanas": 9
                 }
             },
             {
                 "answer": "Trabalhando com soluções de problemas",
                 "weight": {
-                    "exatas": 5,
-                    "biologicas": 4,
-                    "saude": 5,
-                    "comunicacao": 1,
-                    "artes": 1,
-                    "humanas": 3
+                    "exatas": 10,
+                    "biologicas": 8,
+                    "saude": 9,
+                    "comunicacao": 3,
+                    "artes": 3,
+                    "humanas": 5
                 }
             }
         ]

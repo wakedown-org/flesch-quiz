@@ -42,7 +42,7 @@ export class ResultComponent implements OnInit {
   barChartOptions: ChartOptions = {
     responsive: true,
   };
-  barChartLabelsProp: Label[] = [
+  barChartLabelsProp: string[] = [
     'exatas', 
     'biologicas',
     'saude', 
@@ -65,6 +65,7 @@ export class ResultComponent implements OnInit {
   barChartData: ChartDataSets[] = [
     { data: [0, 0, 0, 0, 0, 0] }
   ];
+  selectedMax = '';
 
   get maxValue(): string {
     const max = Math.max(...(this.barChartData[0].data as number[]));
@@ -91,6 +92,14 @@ export class ResultComponent implements OnInit {
       this.barChartLabelsProp.forEach((v: string, i: number) => {
         this.barChartData[0].data[i] += answer[v];
       });
+    });
+    
+    const max = Math.max(...(this.barChartData[0].data as number[]));
+    (this.barChartData[0].data as number[]).map((v, i) => {
+      if (v === max) {
+        this.selectedMax = this.barChartLabelsProp[i];
+        return;
+      }
     });
   }
 

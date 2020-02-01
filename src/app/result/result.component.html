@@ -1,12 +1,42 @@
-<h2>{{maxValue}}</h2>
-
-<div class="chart-wrapper">
-    <canvas baseChart 
-    [datasets]="barChartData"
-    [labels]="barChartLabels"
-    [options]="barChartOptions"
-    [plugins]="barChartPlugins"
-    [legend]="barChartLegend"
-    [chartType]="barChartType">
-  </canvas>
-</div>
+<mat-card>
+  <mat-card-title>
+    <h2>{{maxValue}}</h2>
+  </mat-card-title>
+  <mat-card-content>
+    <!-- <div class="chart-wrapper">
+      <canvas baseChart [datasets]="barChartData" [labels]="barChartLabels" [options]="barChartOptions"
+        [plugins]="barChartPlugins" [legend]="barChartLegend" [chartType]="barChartType">
+      </canvas>
+    </div> -->
+    <p *ngIf="selectedMax === 'exatas'" class="result-text">
+      Você adora desafios, principalmente aqueles que envolvem números e raciocínio lógico.
+      <br>
+      A Unisul dispõe os cursos de Ciência da Computação, Engenharia Civil, Engenharia Elétrica, entre outras opções nas unidades de Tubarão, Pedra Branca e ensino à distância.
+    </p>
+    <p *ngIf="selectedMax === 'humanas'" class="result-text">
+      Você tem afinidade com disciplinas voltadas para o estudo social e cultural.
+      <br>
+      A Unisul dispõe os cursos de Direito, História, Psicologia, entre outras opções nas unidades de Tubarão, Pedra Branca e ensino à distância.
+    </p>
+    <p *ngIf="selectedMax === 'artes'" class="result-text">
+      Você tem um perfil criativo e inspirador, capaz de expressar suas ideias através do seu corpo e mente.
+      <br>
+      A Unisul dispõe os cursos de Cinema e Audiovisual, Design de moda, entre outras opções nas unidades de Tubarão, Pedra Branca e ensino à distância.
+    </p>
+    <p *ngIf="selectedMax === 'biologicas'" class="result-text">
+      Você é curioso e está conectado com a vida e todos os organismos do nosso planeta.
+      <br>
+      A Unisul dispõe os cursos de Ciências Biológicas, Gastronomia, Química, entre outras opções nas unidades de Tubarão, Pedra Branca e ensino à distância.
+    </p>
+    <p *ngIf="selectedMax === 'comunicacao'" class="result-text">
+      Você é comunicativo, tem facilidade para trabalhar em equipe e não tem problemas em liderar.
+      <br>
+      A Unisul dispõe os cursos de Marketing, Publicidade de Propaganda, Relações Internacionais, entre outras opções nas unidades de Tubarão, Pedra Branca e ensino à distância.
+    </p>
+    <p *ngIf="selectedMax === 'saude'" class="result-text">
+      Você tende a cuidar ou zelar pelas pessoas que estão ao seu redor.
+      <br>
+      A Unisul dispõe os cursos de Medicina, Odontologia, Farmácia, entre outras opções nas unidades de Tubarão, Pedra Branca e ensino à distância.
+    </p>
+  </mat-card-content>
+</mat-card>
